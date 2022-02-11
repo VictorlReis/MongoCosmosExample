@@ -1,9 +1,4 @@
 ﻿using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MongoCosmosExample.Data.Context;
 
@@ -33,4 +28,3 @@ public sealed class ConnectionFactory : IConnectionFactory
         return mongoClient.GetDatabase(databaseName);
     }
 }
-

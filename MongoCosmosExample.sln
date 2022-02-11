@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoCosmosExample.Domain",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoCosmosExample.Data", "MongoCosmosExample.Repository\MongoCosmosExample.Data.csproj", "{91F71E2C-BB2A-426B-BEFB-643132C4BE89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoCosmosExample.Service", "MongoCosmosExample.Service\MongoCosmosExample.Service.csproj", "{67B4AB16-E3DF-4F52-8E79-AB6621EF8587}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{91F71E2C-BB2A-426B-BEFB-643132C4BE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91F71E2C-BB2A-426B-BEFB-643132C4BE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91F71E2C-BB2A-426B-BEFB-643132C4BE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B4AB16-E3DF-4F52-8E79-AB6621EF8587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B4AB16-E3DF-4F52-8E79-AB6621EF8587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B4AB16-E3DF-4F52-8E79-AB6621EF8587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B4AB16-E3DF-4F52-8E79-AB6621EF8587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
