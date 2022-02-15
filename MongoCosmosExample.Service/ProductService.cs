@@ -1,9 +1,10 @@
 ﻿using MongoCosmosExample.Domain.Entities;
 using MongoCosmosExample.Repository.Interfaces;
+using MongoCosmosExample.Service.Interfaces;
 
 namespace MongoCosmosExample.Service;
 
-public class ProductService
+public class ProductService : IProductService
 {
     private readonly IRepository<Product> _productRepository;
 
