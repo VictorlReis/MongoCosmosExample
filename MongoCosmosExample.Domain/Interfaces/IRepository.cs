@@ -3,6 +3,6 @@
 public interface IRepository<T>
 {
     IQueryable<T> QueryAll();
-
     T QueryByKey(Guid key);
+    void Insert(T obj);
 }

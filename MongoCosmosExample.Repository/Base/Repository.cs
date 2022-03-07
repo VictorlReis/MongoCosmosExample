@@ -1,4 +1,5 @@
 ﻿using MongoCosmosExample.Data.Context;
+using MongoCosmosExample.Domain.Entities;
 using MongoCosmosExample.Domain.Interfaces;
 using MongoCosmosExample.Repository.Interfaces;
 using MongoDB.Driver;
@@ -18,6 +19,8 @@ public abstract class Repository<T> : IRepository<T> where T : IEntity
     {
         _collectionName = connectionFactory.GetDatabase(databaseName).GetCollection<T>(collectionName);
     }
+
+    public void Insert(T obj) => _collectionName.InsertOne(obj);
 
     public IQueryable<T> QueryAll()
         => _collectionName.AsQueryable();

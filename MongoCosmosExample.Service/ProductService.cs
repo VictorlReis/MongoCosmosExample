@@ -16,4 +16,7 @@ public class ProductService : IProductService
     public IQueryable<Product> QueryAll() => _productRepository.QueryAll();
 
     public Product QueryByKey(Guid key) => _productRepository.QueryByKey(key);
+
+    public void Insert(Product product) => _productRepository.Insert(product);
+    
 }
